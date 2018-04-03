@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hijack Project</string>
+    <string name="eto_relative">Coming soon...</string>
+    <string name="eto_frame">Eto Frame</string>
+    <string name="_1">1</string>
+    <string name="frame_puzzle">Frame Puzzle</string>
+    <string name="relative_pazzle">Relative Puzzle</string>
+    <string name="reset">Reset</string>
+</resources>

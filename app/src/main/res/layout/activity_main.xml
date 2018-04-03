@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f12"
+    tools:context="com.example.user.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/framebutton"
+        style="@style/HijackThemeButton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/relativebutton"
+        android:layout_marginTop="146dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/frame_puzzle"
+        android:textColor="@color/Beige"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/relativebutton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/helpbutton"
+        android:layout_below="@+id/framebutton"
+        android:layout_marginTop="35dp"
+        android:onClick="onClick"
+        android:text="@string/relative_pazzle"
+        android:textColor="@color/Beige"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/helpbutton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="132dp"
+        android:onClick="onClick"
+        android:text="Donate"
+        android:textColor="@color/Beige"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/chess"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/relativebutton"
+        android:layout_alignTop="@+id/relativebutton"
+        android:layout_marginTop="71dp"
+        android:onClick="onClick"
+        android:text="Chess"
+        android:textColor="@color/Beige"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="@color/FloralWhite"
+        android:onClick="onClick"
+        android:src="@drawable/kon" />
+
+</RelativeLayout>
