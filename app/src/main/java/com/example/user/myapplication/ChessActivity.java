@@ -49,7 +49,7 @@ public class ChessActivity extends AppCompatActivity {
 
     public void Click(View view) {
         view.setForeground(getDrawable(R.drawable.frame));
-        ImageView img = (ImageView) findViewById(R.id.a1);
+        ImageView img = (ImageView) findViewById(R.id.);
         //Figure figure = (Figure)view.getTag()
         RealmResults<Figure> results1 = realm.where(Figure.class).findAll();
         for (Figure f : results1){
@@ -57,6 +57,7 @@ public class ChessActivity extends AppCompatActivity {
             f.getY();
             Log.e(LOG_TAG, "" + f.getX() + " " + f.getY());
         }
+
 
     }
 
